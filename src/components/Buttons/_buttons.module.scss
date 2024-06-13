@@ -1,0 +1,53 @@
+.button {
+    &__primary {
+        min-width: 160px;
+        height: 38px;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 4px;
+        border: none;
+
+        background-color: rgb(42, 89, 254);
+        color: rgb(255, 255, 255);
+
+        &:hover {
+            background-color: rgba(42, 89, 254, 0.8);
+        }
+
+        &:active {
+            background-color: #7f9bfe;
+        }
+
+        &:disabled {
+            cursor: no-drop;
+            background-color: #bfcdff;
+            color: #fafbfc;
+        }
+    }
+
+    &__secondary {
+        min-width: 160px;
+        height: 38px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #616a8b;
+        border: none;
+
+        background-color: #f3f3f6;
+
+        &:hover {
+            background-color: #dbdde4;
+        }
+
+        &:active {
+            background-color: #c2c6d2;
+        }
+
+        &:disabled {
+            cursor: no-drop;
+            background-color: #fafbfc;
+            color: #c2c6d2;
+        }
+    }
+}
